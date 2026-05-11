@@ -1,17 +1,77 @@
-# Transaction Processing System  
-### Mini Project – 24UCS271 Lab
+# Transaction Processing System
+
+## Overview
+
+This project is a Transaction Processing System that manages bank account data. It allows users to perform various operations on account records stored in a binary file (`credit.dat`).
+
+## Features
+
+1. **List All Accounts**: Display all account details in a tabular format.
+2. **Search for an Account**: Find an account by account number.
+3. **Export to CSV**: Export account data to a CSV file for external use.
+4. **Sort Accounts**: Sort accounts by account number.
+5. **Account Summary**: View a summary of all accounts, including total and average balances.
+6. **Create a Text File**: Generate a text file from the binary file.
+7. **Update an Account**: Modify details of an existing account.
+8. **Add a New Account**: Add a new account to the system.
+9. **Delete an Account**: Remove an account from the system.
+
+## Compilation
+
+To compile the program, use the following command:
+
+```bash
+gcc trans.c -o trans
+```
+
+## Running the Program
+
+Run the compiled program using:
+
+```bash
+./trans
+```
+
+## Usage Instructions
+
+1. Follow the on-screen menu to perform operations.
+2. Input the required details when prompted.
+
+## Edge Cases to Test
+
+- Empty `credit.dat` file.
+- Duplicate account numbers.
+- Large numbers of accounts.
+- Invalid user inputs (e.g., non-numeric values for account numbers).
+
+## Preparing for Submission
+
+1. Ensure the program is well-tested.
+2. Package the following files:
+   - `trans.c`
+   - `README.md`
+   - `credit.dat` (if applicable)
+   - Any other necessary files.
+3. Submit the package as per the project guidelines.
+
+## References
+
+- [Markdownlint Documentation](https://github.com/DavidAnson/markdownlint)
+- [Markdown Syntax Guide](https://www.markdownguide.org/basic-syntax/)
 
 ---
 
 ## Objective
+
 This mini project focuses on understanding, modifying, and extending a **Transaction Processing System** program. Students are expected to analyze existing code, improve it, and add new functionalities while following good coding practices.
 
 ---
 
 ## Reference Code
+
 Review the given source code before starting the project:
 
-🔗 https://replit.com/@ashokb/Unit5Programs#trans.c
+🔗 [Replit Source Code](https://replit.com/@ashokb/Unit5Programs#trans.c)
 
 ---
 
@@ -32,36 +92,40 @@ Review the given source code before starting the project:
 ## Evaluation Criteria
 
 ### 1. General (25 Points)
-| Activity | Points | Remarks |
-|--------|--------|--------|
-| Self-effort | 5 | Student’s own assessment of hours spent (no copying or external references) |
-| Turnaround Time | 10 | Provide three time slots; earlier demo gets more points |
-| Project Demo | 10 | Demo must be done using repl.it |
+
+| Activity       | Points | Remarks                                                                 |
+|----------------|--------|-------------------------------------------------------------------------|
+| Self-effort    | 5      | Student’s own assessment of hours spent (no copying or external references) |
+| Turnaround Time| 10     | Provide three time slots; earlier demo gets more points                 |
+| Project Demo   | 10     | Demo must be done using repl.it                                        |
 
 ---
 
 ### 2. Comprehension (15 Points)
-| Activity | Points |
-|--------|--------|
-| Domain Knowledge | 5 |
+
+| Activity              | Points |
+|-----------------------|--------|
+| Domain Knowledge      | 5      |
 | Added Functionality (Ideas) | 5 |
-| Code Comprehension | 5 |
+| Code Comprehension    | 5      |
 
 ---
 
 ### 3. Modification (35 Points)
-| Activity | Points |
-|--------|--------|
-| Code Improvement | 5 |
-| Functional Decomposition | 10 |
+
+| Activity              | Points |
+|-----------------------|--------|
+| Code Improvement      | 5      |
+| Functional Decomposition | 10   |
 | Refactoring for Memory Usage | 10 |
-| Refactoring for Speed | 10 |
+| Refactoring for Speed  | 10     |
 
 ---
 
 ### 4. Innovation (45 Points)
-| Activity | Points |
-|--------|--------|
+
+| Activity              | Points |
+|-----------------------|--------|
 | New Features / User Stories (Faculty specified) | 5 |
 | Requirement to Code Translation | 10 |
 | Added Functionality (Simple – Error Handling) | 10 |
@@ -70,6 +134,7 @@ Review the given source code before starting the project:
 ---
 
 ## Total Marks
+
 **120 Marks**  
 ➡ Reduced to **20 Marks** for final evaluation
 
@@ -87,11 +152,7 @@ Review the given source code before starting the project:
 ---
 
 ## Additional Reference
-🔗 http://j.mp/transactionUnit5  
-🔗 https://htmlpreview.github.io/?https://github.com/kgisl/makesite/blob/master/content/blog/2021-06-23-unit5-mini-project.md.html
-🔗 https://github.com/24UCS271-MiniProject/miniProjectSourceCode/
 
----
-
-**Date:** 31/01/2026  
-**Time:** 06:42
+🔗 [Transaction Unit 5](http://j.mp/transactionUnit5)  
+🔗 [HTML Preview](https://htmlpreview.github.io/?https://github.com/kgisl/makesite/blob/master/content/blog/2021-06-23-unit5-mini-project.md.html)  
+🔗 [GitHub Repository](https://github.com/24UCS271-MiniProject/miniProjectSourceCode/)
